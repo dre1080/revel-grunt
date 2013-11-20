@@ -9,6 +9,10 @@ import (
 
 func AppInit() {
 	if revel.DevMode {
+		if err := os.Chdir(revel.BasePath); err != nil {
+			revel.ERROR.Panic(err)
+		}
+
 		cmd := exec.Command("grunt")
 		stdout, err := cmd.StdoutPipe()
 		if err != nil {
