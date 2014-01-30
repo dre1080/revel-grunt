@@ -3,6 +3,9 @@ Revel Grunt
 
 [GruntJs](http://gruntjs.com) module for revel framework
 
+[![baby-gopher](https://raw2.github.com/drnic/babygopher-site/gh-pages/images/babygopher-badge.png)](http://www.babygopher.org)
+
+
 ## Module Use
 
 ### app.init()
